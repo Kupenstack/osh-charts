@@ -1,0 +1,1401 @@
+apiVersion: v1
+entries:
+  aodh:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:27.591555142+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: Openstack-Helm Aodh
+    digest: 17c48da44ac06e7e28e891a0bb3f6fd7827ee5dae6fba271d6056d9f4f14cd2a
+    home: https://docs.openstack.org/aodh/latest/
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: aodh
+    sources:
+    - https://opendev.org/openstack/aodh
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/aodh-0.2.1.tgz
+    version: 0.2.1
+  barbican:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:27.619671083+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Barbican
+    digest: 4e47ed1887f4ecea65b21e9f7e9253d52403837e11d12742b29ed7aae32a3a69
+    home: https://docs.openstack.org/barbican/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Barbican/OpenStack_Project_Barbican_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: barbican
+    sources:
+    - https://opendev.org/openstack/barbican
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/barbican-0.2.6.tgz
+    version: 0.2.6
+  ca-clusterissuer:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-08-10T06:26:27.64385424+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: Certificate Issuer chart for OSH
+    digest: 84ed0a856bcd21b284bc44e3669feede03aab3bcbe3b2b2ab8296481b92fd969
+    home: https://cert-manager.io/
+    name: ca-clusterissuer
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/ca-clusterissuer-0.1.0.tgz
+    version: 0.1.0
+  ca-issuer:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-08-10T06:26:27.673122303+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: Certificate Issuer chart for OSH
+    digest: 8e870e0849bfed0ab43eec1e70291b3267f272737281c3b39d27447e5d6841c6
+    home: https://cert-manager.io/
+    name: ca-issuer
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/ca-issuer-0.2.1.tgz
+    version: 0.2.1
+  calico:
+  - apiVersion: v1
+    appVersion: v3.4.0
+    created: "2021-08-10T06:26:27.701430702+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Calico
+    digest: 301f7bea6339d6cc03f558ef6fc9608562e08f30ab237c6fd63f94195613682f
+    home: https://github.com/projectcalico/calico
+    icon: https://camo.githubusercontent.com/64c8b5ed6ac97553ae367348e8a59a24e2ed5bdc/687474703a2f2f646f63732e70726f6a65637463616c69636f2e6f72672f696d616765732f66656c69782e706e67
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: calico
+    sources:
+    - https://github.com/projectcalico/calico
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/calico-0.1.2.tgz
+    version: 0.1.2
+  ceilometer:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:27.732272084+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Ceilometer
+    digest: 2662d47f2af1263830ce27d0ad41889302e5d0fba6dd4a257107a6771c40fb33
+    home: https://docs.openstack.org/ceilometer/latest/
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: ceilometer
+    sources:
+    - https://opendev.org/openstack/ceilometer
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/ceilometer-0.2.1.tgz
+    version: 0.2.1
+  ceph-client:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:27.755943482+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Ceph Client
+    digest: 4a245b05b65dbef3232b3b32f0fc99c5f2d35a2fa2beef133b774559d0b773a2
+    home: https://github.com/ceph/ceph-client
+    name: ceph-client
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/ceph-client-0.1.20.tgz
+    version: 0.1.20
+  ceph-mon:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:27.786813428+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Ceph Mon
+    digest: 76dfdfc34be76b41da60adfbf037973b54c257463983c5e4676c1157ee8e2c4f
+    home: https://github.com/ceph/ceph
+    name: ceph-mon
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/ceph-mon-0.1.11.tgz
+    version: 0.1.11
+  ceph-osd:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:27.816701767+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Ceph OSD
+    digest: 1e995562e08c1fb6ecd5cb3fca55f4502229f1012281fbe3a50e1b1da5ee26af
+    home: https://github.com/ceph/ceph
+    name: ceph-osd
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/ceph-osd-0.1.28.tgz
+    version: 0.1.28
+  ceph-provisioners:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:27.842420078+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Ceph Provisioner
+    digest: 23ad6262019b0e5a9932ef6f5d4976752e953b93d7c672d9c9f607403fb3bb30
+    home: https://github.com/ceph/ceph
+    name: ceph-provisioners
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/ceph-provisioners-0.1.11.tgz
+    version: 0.1.11
+  ceph-rgw:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:27.87097631+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Ceph RadosGW
+    digest: c4f7da6d2ebf205c3260a51d8773798fe9899d6902f1f6e4226d470307e8783e
+    home: https://github.com/ceph/ceph
+    name: ceph-rgw
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/ceph-rgw-0.1.15.tgz
+    version: 0.1.15
+  cert-rotation:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-08-10T06:26:27.891222109+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: Rotate the certificates generated by cert-manager
+    digest: 715f39187a2f8b6eb57919f56433bf7213320c747ddc39911ad51d4758dbc1b5
+    home: https://cert-manager.io/
+    name: cert-rotation
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/cert-rotation-0.1.1.tgz
+    version: 0.1.1
+  cinder:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:27.923077168+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Cinder
+    digest: e95989eb43f3c4d23ba961720c3d5d1642bb211ac2658ba6c9c470d77e4627a4
+    home: https://docs.openstack.org/cinder/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Cinder/OpenStack_Project_Cinder_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: cinder
+    sources:
+    - https://opendev.org/openstack/cinder
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/cinder-0.2.7.tgz
+    version: 0.2.7
+  daemonjob-controller:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:27.948029876+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: A Helm chart for DaemonjobController
+    digest: 2fa9bfc8c8b8bbeeb8ba40c26e50730701b42a4d36aee66af2c37b587235f6d7
+    home: https://opendev.org/openstack
+    name: daemonjob-controller
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/daemonjob-controller-0.1.4.tgz
+    version: 0.1.4
+  designate:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:27.973478723+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Designate
+    digest: a086021efaa2fce1e4a34982e95a2019bb36ea6ef428a06235c973d1691452ce
+    home: https://docs.openstack.org/designate/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Designate/OpenStack_Project_Designate_vertical.jpg
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: designate
+    sources:
+    - https://opendev.org/openstack/designate
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/designate-0.2.1.tgz
+    version: 0.2.1
+  elastic-apm-server:
+  - apiVersion: v1
+    appVersion: v6.2.3
+    created: "2021-08-10T06:26:27.997793952+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts/
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Elastic APM Server
+    digest: f27a1236fb3071edeafc73156ab86e57160e74d1acd44a10b796a828dcb7319d
+    home: https://www.elastic.co/guide/en/apm/get-started/current/index.html
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: elastic-apm-server
+    sources:
+    - https://github.com/elastic/apm-server
+    - https://opendev.org/openstack/openstack-helm-infra
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/elastic-apm-server-0.1.2.tgz
+    version: 0.1.2
+  elastic-filebeat:
+  - apiVersion: v1
+    appVersion: v7.1.0
+    created: "2021-08-10T06:26:28.026704645+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts/
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Elastic Filebeat
+    digest: 9a17d91a73c0ca0dd0ba3e4c92e2841137c22116145b18feeb361fc1762c4593
+    home: https://www.elastic.co/products/beats/filebeat
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: elastic-filebeat
+    sources:
+    - https://github.com/elastic/beats/tree/master/filebeat
+    - https://opendev.org/openstack/openstack-helm-infra
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/elastic-filebeat-0.1.2.tgz
+    version: 0.1.2
+  elastic-metricbeat:
+  - apiVersion: v1
+    appVersion: v7.1.0
+    created: "2021-08-10T06:26:28.051201711+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts/
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Elastic Metricbeat
+    digest: 08cd3c2fb45755d276f4818af7f3c8f7b6977a2168406a216907f3446357c93e
+    home: https://www.elastic.co/products/beats/metricbeat
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: elastic-metricbeat
+    sources:
+    - https://github.com/elastic/beats/tree/master/metricbeat
+    - https://opendev.org/openstack/openstack-helm-infra
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/elastic-metricbeat-0.1.3.tgz
+    version: 0.1.3
+  elastic-packetbeat:
+  - apiVersion: v1
+    appVersion: v7.1.0
+    created: "2021-08-10T06:26:28.072896634+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts/
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Elastic Packetbeat
+    digest: 4495e7141d83bfc14d61e621a0cc5e161d30a2cd03c97f0e78b87cc66faec990
+    home: https://www.elastic.co/products/beats/packetbeat
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: elastic-packetbeat
+    sources:
+    - https://github.com/elastic/beats/tree/master/packetbeat
+    - https://opendev.org/openstack/openstack-helm-infra
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/elastic-packetbeat-0.1.2.tgz
+    version: 0.1.2
+  elasticsearch:
+  - apiVersion: v1
+    appVersion: v7.6.2
+    created: "2021-08-10T06:26:28.098605066+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm ElasticSearch
+    digest: 5ef78f63c103c68bf30ccafafa196483ea5ef94b9e67b23d75911237919e2fef
+    home: https://www.elastic.co/
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: elasticsearch
+    sources:
+    - https://github.com/elastic/elasticsearch
+    - https://opendev.org/openstack/openstack-helm-addons
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/elasticsearch-0.2.10.tgz
+    version: 0.2.10
+  etcd:
+  - apiVersion: v1
+    appVersion: v3.4.3
+    created: "2021-08-10T06:26:28.11916346+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm etcd
+    digest: d8ac15ee1086905bb785b073763fa65fd905e0b733189a09ce2a8839f6d8fd7d
+    home: https://coreos.com/etcd/
+    icon: https://raw.githubusercontent.com/CloudCoreo/etcd-cluster/master/images/icon.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: etcd
+    sources:
+    - https://github.com/coreos/etcd/
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/etcd-0.1.3.tgz
+    version: 0.1.3
+  falco:
+  - apiVersion: v1
+    appVersion: 0.11.1
+    created: "2021-08-10T06:26:28.144564105+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: Sysdig Falco
+    digest: 25af37021f09fc4b9e14620ec37a1f4c109d101d60e41c881e7ccb3f835e49f4
+    home: https://www.sysdig.com/opensource/falco/
+    icon: https://sysdig.com/wp-content/uploads/2016/08/falco_blog_480.jpg
+    keywords:
+    - monitoring
+    - security
+    - alerting
+    - metric
+    - troubleshooting
+    - run-time
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: falco
+    sources:
+    - https://github.com/draios/falco
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/falco-0.1.5.tgz
+    version: 0.1.5
+  flannel:
+  - apiVersion: v1
+    appVersion: v0.8.0
+    created: "2021-08-10T06:26:28.168034272+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm BootStrap Flannel
+    digest: e378aeadf4fc1dd20533a605232249ac3c56510727a05548a0e7f5c7af4a0d95
+    home: https://github.com/coreos/flannel
+    icon: https://raw.githubusercontent.com/coreos/flannel/master/logos/flannel-horizontal-color.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: flannel
+    sources:
+    - https://github.com/coreos/flannel
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/flannel-0.1.2.tgz
+    version: 0.1.2
+  fluentbit:
+  - apiVersion: v1
+    appVersion: v0.14.2
+    created: "2021-08-10T06:26:28.192263114+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts/
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Fluentbit
+    digest: b5d2ff8d16592b0b0d124de73170ed024a395be205e3a6b34a5a97461330e602
+    home: https://www.fluentbit.io/
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: fluentbit
+    sources:
+    - https://github.com/fluent/fluentbit
+    - https://opendev.org/openstack/openstack-helm-infra
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/fluentbit-0.1.2.tgz
+    version: 0.1.2
+  fluentd:
+  - apiVersion: v1
+    appVersion: v1.10.1
+    created: "2021-08-10T06:26:28.217640205+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts/
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Fluentd
+    digest: 1ea0dfc7706089bfccd62aec54ae6c68446650609802e0a79a27735ba7621178
+    home: https://www.fluentd.org/
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: fluentd
+    sources:
+    - https://github.com/fluent/fluentd
+    - https://opendev.org/openstack/openstack-helm-infra
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/fluentd-0.1.5.tgz
+    version: 0.1.5
+  glance:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:28.246316668+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Glance
+    digest: a74718d4f2168527d4610c65cea33cb67e511cfe5a5a4060be36bf959d41a6ba
+    home: https://docs.openstack.org/glance/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Glance/OpenStack_Project_Glance_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: glance
+    sources:
+    - https://opendev.org/openstack/glance
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/glance-0.2.6.tgz
+    version: 0.2.6
+  gnocchi:
+  - apiVersion: v1
+    appVersion: v3.0.3
+    created: "2021-08-10T06:26:28.273115857+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Gnocchi
+    digest: f7588591e13566683720cf20304b6954b62b8216d6632756aa5eb9567a81d1b2
+    home: https://gnocchi.xyz/
+    icon: https://gnocchi.xyz/_static/gnocchi-logo.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: gnocchi
+    sources:
+    - https://github.com/gnocchixyz/gnocchi
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/gnocchi-0.1.2.tgz
+    version: 0.1.2
+  grafana:
+  - apiVersion: v1
+    appVersion: v7.4.5
+    created: "2021-08-10T06:26:28.303152734+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Grafana
+    digest: 324b999ea411be7b10b8c676ee5d9e71dd63f19d9b62b02b0aad1328ba45e056
+    home: https://grafana.com/
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    - https://opendev.org/openstack/openstack-helm-addons
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/grafana-0.1.9.tgz
+    version: 0.1.9
+  heat:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:28.334425249+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Heat
+    digest: b388c8fc1326394fbd974c50f447034443cc487a1f8f5dd80360349494d7d121
+    home: https://docs.openstack.org/heat/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Heat/OpenStack_Project_Heat_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: heat
+    sources:
+    - https://opendev.org/openstack/heat
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/heat-0.2.5.tgz
+    version: 0.2.5
+  helm-toolkit:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:28.359994917+05:30"
+    description: OpenStack-Helm Helm-Toolkit
+    digest: 6e4a0f3a086dca6b45869fee1657fcf57e122fed3bcac34d8deb627a5010b346
+    home: https://docs.openstack.org/openstack-helm
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/OpenStack-Helm/OpenStack_Project_OpenStackHelm_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: helm-toolkit
+    sources:
+    - https://opendev.org/openstack/openstack-helm-infra
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/helm-toolkit-0.2.19.tgz
+    version: 0.2.19
+  horizon:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:28.395849341+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Horizon
+    digest: 6720751da381276d2c35e56b5ecfa08b6cd2c219fe1c9d79a8886859cb4a9006
+    home: https://docs.openstack.org/horizon/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Horizon/OpenStack_Project_Horizon_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: horizon
+    sources:
+    - https://opendev.org/openstack/horizon
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/horizon-0.2.6.tgz
+    version: 0.2.6
+  ingress:
+  - apiVersion: v1
+    appVersion: v0.42.0
+    created: "2021-08-10T06:26:28.418476683+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Ingress Controller
+    digest: 095834d42d1abc79e1346516e12c9b1a4fb76d926b915caf25c43732afa511c8
+    home: https://github.com/kubernetes/ingress
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: ingress
+    sources:
+    - https://github.com/kubernetes/ingress
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/ingress-0.2.3.tgz
+    version: 0.2.3
+  ironic:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:28.445101604+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Ironic
+    digest: 3d3acd5ea831f11520a6da45c249c2c24db50cee973e290616fe5f6a9299b9d6
+    home: https://docs.openstack.org/ironic/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Ironic/OpenStack_Project_Ironic_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: ironic
+    sources:
+    - https://opendev.org/openstack/ironic
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/ironic-0.2.1.tgz
+    version: 0.2.1
+  keystone:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:28.474588416+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Keystone
+    digest: ddc893762f94faed51794e008657a74d14fde38aea73b4d5c3636b7614365c88
+    home: https://docs.openstack.org/keystone/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Keystone/OpenStack_Project_Keystone_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: keystone
+    sources:
+    - https://opendev.org/openstack/keystone
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/keystone-0.2.10.tgz
+    version: 0.2.10
+  kibana:
+  - apiVersion: v1
+    appVersion: v7.1.0
+    created: "2021-08-10T06:26:28.500734464+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Kibana
+    digest: 7caf5c55f5330df965a398cb65e67f0f94bdc5bd92e57552335a3052959683d9
+    home: https://www.elastic.co/products/kibana
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: kibana
+    sources:
+    - https://github.com/elastic/kibana
+    - https://opendev.org/openstack/openstack-helm-infra
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/kibana-0.1.5.tgz
+    version: 0.1.5
+  kube-dns:
+  - apiVersion: v1
+    appVersion: v1.14.5
+    created: "2021-08-10T06:26:28.526029837+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Kube-DNS
+    digest: c63fbee718eb2479a9816a06f0e870437ef354654743e1588ca0b20b464b6987
+    home: https://github.com/coreos/flannel
+    icon: https://raw.githubusercontent.com/coreos/flannel/master/logos/flannel-horizontal-color.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: kube-dns
+    sources:
+    - https://github.com/coreos/flannel
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/kube-dns-0.1.3.tgz
+    version: 0.1.3
+  kubernetes-keystone-webhook:
+  - apiVersion: v1
+    appVersion: v0.2.0
+    created: "2021-08-10T06:26:28.551874169+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Kubernetes keystone webhook
+    digest: beba6bc07cb716c70c18d7013e0bcb7cf8e32169a9d171a30b6db33b4dd535cb
+    home: https://github.com/kubernetes/cloud-provider-openstack
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: kubernetes-keystone-webhook
+    sources:
+    - https://opendev.org/openstack/openstack-helm-infra
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/kubernetes-keystone-webhook-0.1.4.tgz
+    version: 0.1.4
+  kubernetes-node-problem-detector:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:28.575298195+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Kubernetes Node Problem Detector
+    digest: f7d7a647a52921b81a41a45ecaeda58d2d0dfb253c031f47c2082abb2b0e2b48
+    home: https://github.com/kubernetes/node-problem-detector
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: kubernetes-node-problem-detector
+    sources:
+    - https://github.com/kubernetes/node-problem-detector
+    - https://opendev.org/openstack/openstack-helm-infra
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/kubernetes-node-problem-detector-0.1.5.tgz
+    version: 0.1.5
+  ldap:
+  - apiVersion: v1
+    appVersion: v1.2.0
+    created: "2021-08-10T06:26:28.596447246+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm LDAP
+    digest: f1fa40e7274040959cdb766efc8c3786ad6a9b506cace173ecf40b7a4a216ce1
+    home: https://www.openldap.org/
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: ldap
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/ldap-0.1.2.tgz
+    version: 0.1.2
+  libvirt:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:28.622392355+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm libvirt
+    digest: d3bf1a2bd3aa89193b36faddac5d0c3ce8ddff9515b41e90c9bdb4875b5eb392
+    home: https://libvirt.org
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: libvirt
+    sources:
+    - https://libvirt.org/git/?p=libvirt.git;a=summary
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/libvirt-0.1.7.tgz
+    version: 0.1.7
+  local-storage:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:28.652202778+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Local Storage
+    digest: 409b08572166e662abd99c95e488b11fb396a70669aad707a5cf002499db9285
+    home: https://kubernetes.io/docs/concepts/storage/volumes/#local
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: local-storage
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/local-storage-0.1.1.tgz
+    version: 0.1.1
+  lockdown:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-08-10T06:26:28.671914431+05:30"
+    description: 'A helm chart used to lockdown all ingress and egress for a namespace '
+    digest: a4defb485977f51f60e354f49e4a6a76c63ae144e0dbebaafbcd643b2027294c
+    home: https://kubernetes.io/docs/concepts/services-networking/network-policies/
+    name: lockdown
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/lockdown-0.1.0.tgz
+    version: 0.1.0
+  magnum:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:28.695464775+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Magnum
+    digest: 90708749f8b09b622483a994722272f5fc4055d0bd8661687e66c7f7b7dcbb9c
+    home: https://docs.openstack.org/magnum/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Magnum/OpenStack_Project_Magnum_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: magnum
+    sources:
+    - https://opendev.org/openstack/magnum
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/magnum-0.2.2.tgz
+    version: 0.2.2
+  mariadb:
+  - apiVersion: v1
+    appVersion: v10.2.31
+    created: "2021-08-10T06:26:28.724027239+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm MariaDB
+    digest: 7d48fc3af72774fd6301f57071c85597c4df005d9e8a2617ed386bfff27262f6
+    home: https://mariadb.com/kb/en/
+    icon: http://badges.mariadb.org/mariadb-badge-180x60.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: mariadb
+    sources:
+    - https://github.com/MariaDB/server
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/mariadb-0.2.5.tgz
+    version: 0.2.5
+  memcached:
+  - apiVersion: v1
+    appVersion: v1.5.5
+    created: "2021-08-10T06:26:28.744988503+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Memcached
+    digest: 444c8d22a9852d3e78b361c77da6d3b61b63a52d601a8774d882c2ddee69886f
+    home: https://github.com/memcached/memcached
+    name: memcached
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/memcached-0.1.4.tgz
+    version: 0.1.4
+  metacontroller:
+  - apiVersion: v1
+    appVersion: v0.4.2
+    created: "2021-08-10T06:26:28.771239096+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: A Helm chart for Metacontroller
+    digest: 8bdfa0f05334a53a7596e851e9fd2b76a4ea5e6762e49ef6fe46ecd10458b22a
+    home: https://metacontroller.app/
+    keywords:
+    - CRDs
+    - metacontroller
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: metacontroller
+    sources:
+    - https://github.com/GoogleCloudPlatform/metacontroller
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/metacontroller-0.1.3.tgz
+    version: 0.1.3
+  mistral:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:28.799098347+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Mistral
+    digest: 2667f8e455d1dd5f24e1368d0a93188397645722aac6b90a80af098650d8bd05
+    home: https://docs.openstack.org/mistral/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Mistral/OpenStack_Project_Mistral_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: mistral
+    sources:
+    - https://opendev.org/openstack/mistral
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/mistral-0.2.1.tgz
+    version: 0.2.1
+  mongodb:
+  - apiVersion: v1
+    appVersion: v3.4.9
+    created: "2021-08-10T06:26:28.825591114+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm MongoDB
+    digest: be6ef05af77d5cc60d25f8f38e4c9578cc5ffc464d42bc0f4e8eca5d31fbfc67
+    home: https://www.mongodb.com
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: mongodb
+    sources:
+    - https://github.com/mongodb/mongo
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/mongodb-0.1.2.tgz
+    version: 0.1.2
+  nagios:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:28.862917918+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Nagios
+    digest: 20b866c42b5a4801331a302852d54644c4aaf81c3a5250eaeb56f2fa15453d5f
+    home: https://www.nagios.org
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: nagios
+    sources:
+    - https://opendev.org/openstack/openstack-helm-addons
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/nagios-0.1.3.tgz
+    version: 0.1.3
+  namespace-config:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:28.892366623+05:30"
+    description: OpenStack-Helm Namespace Config
+    digest: 56470be6ec9a5a11e61cb8344318a3b5dfb5a7631ed57524e326bcb059626d60
+    home: https://kubernetes.io/docs/concepts/policy/limit-range/
+    name: namespace-config
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/namespace-config-0.1.1.tgz
+    version: 0.1.1
+  neutron:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:28.931380912+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Neutron
+    digest: 79ed9ba3a723d2250fc50be6ecfac91f21aa3005cca5b32ec55b3ca1d0b1f7bc
+    home: https://docs.openstack.org/neutron/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Neutron/OpenStack_Project_Neutron_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: neutron
+    sources:
+    - https://opendev.org/openstack/neutron
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/neutron-0.2.8.tgz
+    version: 0.2.8
+  nfs-provisioner:
+  - apiVersion: v1
+    appVersion: v2.2.1
+    created: "2021-08-10T06:26:28.951641892+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm NFS
+    digest: efb568775fc9ca033b0996a0fc2b24ee57ecf4c106e6fcb889f1540c211e619f
+    home: https://github.com/kubernetes-incubator/external-storage
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: nfs-provisioner
+    sources:
+    - https://github.com/kubernetes-incubator/external-storage
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/nfs-provisioner-0.1.2.tgz
+    version: 0.1.2
+  nova:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:28.993416468+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Nova
+    digest: 52f304f157e8cc8769d783505e505e1694bd4d2885838a1afbd2c87bffed9433
+    home: https://docs.openstack.org/nova/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Nova/OpenStack_Project_Nova_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: nova
+    sources:
+    - https://opendev.org/openstack/nova
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/nova-0.2.13.tgz
+    version: 0.2.13
+  octavia:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:29.020007687+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Octavia
+    digest: f254257b07736b01c1b852265d9f171bda7e327f3c3c4476b8a41a110567b90d
+    home: https://docs.openstack.org/octavia/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Octavia/OpenStack_Project_Octavia_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: octavia
+    sources:
+    - https://opendev.org/openstack/octavia
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/octavia-0.2.1.tgz
+    version: 0.2.1
+  openvswitch:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:29.044025385+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm OpenVSwitch
+    digest: 03655b8638ad17f8ba7415fd9f0ea3149db87e05e3399204061cc5c23682c8e2
+    home: http://openvswitch.org
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Neutron/OpenStack_Project_Neutron_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: openvswitch
+    sources:
+    - https://github.com/openvswitch/ovs
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/openvswitch-0.1.5.tgz
+    version: 0.1.5
+  placement:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:29.068771949+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Placement
+    digest: 4e862f2771edc575680c8462621a3d047287dbfc426e3c9c18c5c89776f5021e
+    home: https://docs.openstack.org/placement/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Placement/OpenStack_Project_Placement_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: placement
+    sources:
+    - https://opendev.org/openstack/placement
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/placement-0.2.2.tgz
+    version: 0.2.2
+  podsecuritypolicy:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:29.090988425+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm PodSecurityPolicy Chart
+    digest: 743bd315ffe3d49abb79ae8334ede35349a31bbbb45616514fb19d2b6da41306
+    home: https://kubernetes.io/docs/concepts/policy/pod-security-policy/
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: podsecuritypolicy
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/podsecuritypolicy-0.1.1.tgz
+    version: 0.1.1
+  postgresql:
+  - apiVersion: v1
+    appVersion: v9.6
+    created: "2021-08-10T06:26:29.116685255+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm PostgreSQL
+    digest: 7fd30aee92468afda598cdbe46da092fa030e22d8a6b3c96152f6593932c9214
+    home: https://www.postgresql.org
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: postgresql
+    sources:
+    - https://github.com/postgres/postgres
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/postgresql-0.1.9.tgz
+    version: 0.1.9
+  powerdns:
+  - apiVersion: v1
+    appVersion: v4.1.10
+    created: "2021-08-10T06:26:29.139741029+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm PowerDNS
+    digest: bb3d5e8cfe374dd0ae43bcaa8ec252603f471fc3e0b7d2995cda3c54057fae1a
+    home: https://www.powerdns.com/
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: powerdns
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/powerdns-0.1.2.tgz
+    version: 0.1.2
+  prometheus:
+  - apiVersion: v1
+    appVersion: v2.25.0
+    created: "2021-08-10T06:26:29.16916361+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Prometheus
+    digest: 3e8dc6103ee059b6a3a5ca87cbbaf35eb4f00d5c72455700966ef0e66b45f1e0
+    home: https://prometheus.io/
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/prometheus
+    - https://opendev.org/openstack/openstack-helm-infra
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/prometheus-0.1.10.tgz
+    version: 0.1.10
+  prometheus-alertmanager:
+  - apiVersion: v1
+    appVersion: v0.20.0
+    created: "2021-08-10T06:26:29.199479217+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Alertmanager for Prometheus
+    digest: d76720b74a19ae040aadd0420abc732d0bc136eed983f99f03eca5faaf4efc02
+    home: https://prometheus.io/docs/alerting/alertmanager/
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: prometheus-alertmanager
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://opendev.org/openstack/openstack-helm-infra
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/prometheus-alertmanager-0.1.7.tgz
+    version: 0.1.7
+  prometheus-blackbox-exporter:
+  - apiVersion: v1
+    appVersion: v0.16.0
+    created: "2021-08-10T06:26:29.226829563+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm blackbox exporter for Prometheus
+    digest: a663644b453385a9f215b44aa67146ab70eb5b368957576462271d03317d99cf
+    home: https://github.com/prometheus/blackbox_exporter
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://opendev.org/openstack/openstack-helm-infra
+    - https://github.com/prometheus/blackbox_exporter
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/prometheus-blackbox-exporter-0.1.2.tgz
+    version: 0.1.2
+  prometheus-kube-state-metrics:
+  - apiVersion: v1
+    appVersion: v1.3.1
+    created: "2021-08-10T06:26:29.251355926+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Kube-State-Metrics for Prometheus
+    digest: 3929b061573e3a0f8af0b987f5d210f53ff5107b7a64e6e7bf2a747dc14e4e7d
+    home: https://github.com/kubernetes/kube-state-metrics
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: prometheus-kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics
+    - https://opendev.org/openstack/openstack-helm-infra
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/prometheus-kube-state-metrics-0.1.4.tgz
+    version: 0.1.4
+  prometheus-node-exporter:
+  - apiVersion: v1
+    appVersion: v0.18.1
+    created: "2021-08-10T06:26:29.2746537+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Node Exporter for Prometheus
+    digest: 7287df53213aae5f8a1f0e39fa98f8191ff511fce7729ac353fa85978454ea50
+    home: https://github.com/prometheus/node_exporter
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter
+    - https://opendev.org/openstack/openstack-helm-infra
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/prometheus-node-exporter-0.1.3.tgz
+    version: 0.1.3
+  prometheus-openstack-exporter:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:29.301599621+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack Metrics Exporter for Prometheus
+    digest: 7da7783303b9a15592e28b94878826193e86e6861425e3b8ac33415c0a330c87
+    home: https://github.com/openstack/openstack-helm-infra
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: prometheus-openstack-exporter
+    sources:
+    - https://opendev.org/openstack/openstack-helm-infra
+    - https://github.com/rakesh-patnaik/prometheus-openstack-exporter
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/prometheus-openstack-exporter-0.1.4.tgz
+    version: 0.1.4
+  prometheus-process-exporter:
+  - apiVersion: v1
+    appVersion: v0.2.11
+    created: "2021-08-10T06:26:29.325210694+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Process Exporter for Prometheus
+    digest: 4e78315a2b4c41e82a6c4d1a4f0e5df2222f7ba22923dcdf6250847402b5e7ab
+    home: https://github.com/openstack/openstack-helm-infra
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: prometheus-process-exporter
+    sources:
+    - https://github.com/ncabatoff/process-exporter
+    - https://opendev.org/openstack/openstack-helm-infra
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/prometheus-process-exporter-0.1.3.tgz
+    version: 0.1.3
+  rabbitmq:
+  - apiVersion: v1
+    appVersion: v3.7.26
+    created: "2021-08-10T06:26:29.351244647+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm RabbitMQ
+    digest: 9ea793e5ba32b1ba1ee616c9b0b633a98992a6d073c83d8c0239d3e4b4aa2370
+    home: https://github.com/rabbitmq/rabbitmq-server
+    name: rabbitmq
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/rabbitmq-0.1.13.tgz
+    version: 0.1.13
+  rally:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:29.392295844+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm rally
+    digest: 54036fe1ddd703a94df312adf4f19671209975f67da4c3b78acae9adb23d1301
+    home: https://docs.openstack.org/developer/rally
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/rally/OpenStack_Project_rally_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: rally
+    sources:
+    - https://opendev.org/openstack/rally
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/rally-0.2.0.tgz
+    version: 0.2.0
+  redis:
+  - apiVersion: v1
+    appVersion: v4.0.1
+    created: "2021-08-10T06:26:29.4241051+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Redis
+    digest: 9be5aa2ce24d9b13fcbd3b25d35a87f19c840380fc9524c7406b56890175bda7
+    home: https://github.com/redis/redis
+    name: redis
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/redis-0.1.2.tgz
+    version: 0.1.2
+  registry:
+  - apiVersion: v1
+    appVersion: v2.0.0
+    created: "2021-08-10T06:26:29.448491421+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Docker Registry
+    digest: 3b43e4ae4e572e6f201ba091364ee92cd0210cea7c1ac2fc5d01e43452b44265
+    home: https://github.com/kubernetes/ingress
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: registry
+    sources:
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/registry-0.1.3.tgz
+    version: 0.1.3
+  senlin:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:29.480191318+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Senlin
+    digest: eca636a7160b13b24862607dfc7589ba3eed1b03173770746bd42cb6596a0e99
+    home: https://docs.openstack.org/senlin/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/Senlin/OpenStack_Project_Senlin_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: senlin
+    sources:
+    - https://opendev.org/openstack/senlin
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/senlin-0.2.1.tgz
+    version: 0.2.1
+  shaker:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:29.503991163+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Shaker
+    digest: fb33a406e14bfd4df86e2729fee0fa9fade2deb79ec8cf8dd955a4ede026ce87
+    home: https://pyshaker.readthedocs.io/en/latest/index.html
+    icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlnnEExfz6H9bBFFDxsDm5mVTdKWOt6Hw2_3aJ7hVkNdDdTCrimQ
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: shaker
+    sources:
+    - https://opendev.org/openstack/shaker
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/shaker-0.1.2.tgz
+    version: 0.1.2
+  tempest:
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2021-08-10T06:26:29.528714232+05:30"
+    dependencies:
+    - name: helm-toolkit
+      repository: http://localhost:8879/charts
+      version: '>= 0.1.0'
+    description: OpenStack-Helm Tempest
+    digest: a8f7085e2f47a83a2c8aa017a3f5609473e1a4caf727fc76b305fbcc051a42d8
+    home: https://docs.openstack.org/tempest/latest/
+    icon: https://www.openstack.org/themes/openstack/images/project-mascots/tempest/OpenStack_Project_tempest_vertical.png
+    maintainers:
+    - name: OpenStack-Helm Authors
+    name: tempest
+    sources:
+    - https://opendev.org/openstack/tempest
+    - https://opendev.org/openstack/openstack-helm
+    urls:
+    - https://kupenstack.github.io/osh-charts/charts/tempest-0.2.0.tgz
+    version: 0.2.0
+generated: "2021-08-10T06:26:27.560245918+05:30"
