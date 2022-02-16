@@ -1,0 +1,11 @@
+apiVersion: v1
+appVersion: v7.1.0
+description: OpenStack-Helm Elastic Filebeat
+home: https://www.elastic.co/products/beats/filebeat
+maintainers:
+- name: OpenStack-Helm Authors
+name: elastic-filebeat
+sources:
+- https://github.com/elastic/beats/tree/master/filebeat
+- https://opendev.org/openstack/openstack-helm-infra
+version: 0.1.3

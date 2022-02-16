@@ -1,0 +1,11 @@
+apiVersion: v1
+appVersion: v7.1.0
+description: OpenStack-Helm Elastic Packetbeat
+home: https://www.elastic.co/products/beats/packetbeat
+maintainers:
+- name: OpenStack-Helm Authors
+name: elastic-packetbeat
+sources:
+- https://github.com/elastic/beats/tree/master/packetbeat
+- https://opendev.org/openstack/openstack-helm-infra
+version: 0.1.3

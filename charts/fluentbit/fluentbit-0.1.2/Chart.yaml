@@ -1,0 +1,11 @@
+apiVersion: v1
+appVersion: v0.14.2
+description: OpenStack-Helm Fluentbit
+home: https://www.fluentbit.io/
+maintainers:
+- name: OpenStack-Helm Authors
+name: fluentbit
+sources:
+- https://github.com/fluent/fluentbit
+- https://opendev.org/openstack/openstack-helm-infra
+version: 0.1.2
