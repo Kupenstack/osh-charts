@@ -1,0 +1,11 @@
+apiVersion: v1
+appVersion: v9.6
+description: OpenStack-Helm PostgreSQL
+home: https://www.postgresql.org
+maintainers:
+- name: OpenStack-Helm Authors
+name: postgresql
+sources:
+- https://github.com/postgres/postgres
+- https://opendev.org/openstack/openstack-helm
+version: 0.1.11

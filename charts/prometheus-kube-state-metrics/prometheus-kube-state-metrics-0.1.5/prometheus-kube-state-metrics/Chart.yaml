@@ -1,0 +1,11 @@
+apiVersion: v1
+appVersion: v1.3.1
+description: OpenStack-Helm Kube-State-Metrics for Prometheus
+home: https://github.com/kubernetes/kube-state-metrics
+maintainers:
+- name: OpenStack-Helm Authors
+name: prometheus-kube-state-metrics
+sources:
+- https://github.com/kubernetes/kube-state-metrics
+- https://opendev.org/openstack/openstack-helm-infra
+version: 0.1.5
