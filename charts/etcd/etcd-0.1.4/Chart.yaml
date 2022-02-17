@@ -1,0 +1,12 @@
+apiVersion: v1
+appVersion: v3.4.3
+description: OpenStack-Helm etcd
+home: https://coreos.com/etcd/
+icon: https://raw.githubusercontent.com/CloudCoreo/etcd-cluster/master/images/icon.png
+maintainers:
+- name: OpenStack-Helm Authors
+name: etcd
+sources:
+- https://github.com/coreos/etcd/
+- https://opendev.org/openstack/openstack-helm
+version: 0.1.4
