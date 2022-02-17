@@ -1,0 +1,11 @@
+apiVersion: v1
+appVersion: v3.4.9
+description: OpenStack-Helm MongoDB
+home: https://www.mongodb.com
+maintainers:
+- name: OpenStack-Helm Authors
+name: mongodb
+sources:
+- https://github.com/mongodb/mongo
+- https://opendev.org/openstack/openstack-helm
+version: 0.1.3
