@@ -1,6 +1,0 @@
-apiVersion: v1
-appVersion: v1.0.0
-description: A Helm chart for DaemonjobController
-home: https://opendev.org/openstack
-name: daemonjob-controller
-version: 0.1.5
