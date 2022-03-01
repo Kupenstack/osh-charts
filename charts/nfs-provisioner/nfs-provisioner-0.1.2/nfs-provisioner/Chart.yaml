@@ -1,0 +1,11 @@
+apiVersion: v1
+appVersion: v2.2.1
+description: OpenStack-Helm NFS
+home: https://github.com/kubernetes-incubator/external-storage
+maintainers:
+- name: OpenStack-Helm Authors
+name: nfs-provisioner
+sources:
+- https://github.com/kubernetes-incubator/external-storage
+- https://opendev.org/openstack/openstack-helm
+version: 0.1.2
