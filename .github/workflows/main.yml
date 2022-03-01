@@ -16,13 +16,17 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config user.name "Alt-Shivam"
-          git config user.email "shivank1128@gmail.com"
+          git config user.name "Parth Yadav"
+          git config user.email "parthyadav3105@gmail.com"
 
       - name: Install Helm
         uses: azure/setup-helm@v1
         with:
           version: v3.7.1
+
+      - name: Add helm repo
+        run: |
+          helm repo add osh-charts https://charts.kupenstack.io/
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.3.0
