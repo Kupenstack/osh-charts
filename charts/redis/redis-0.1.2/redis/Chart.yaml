@@ -1,6 +1,0 @@
-apiVersion: v1
-appVersion: v4.0.1
-description: OpenStack-Helm Redis
-home: https://github.com/redis/redis
-name: redis
-version: 0.1.2

@@ -1,6 +1,0 @@
-apiVersion: v1
-appVersion: v1.0.0
-description: OpenStack-Helm Ceph Mon
-home: https://github.com/ceph/ceph
-name: ceph-mon
-version: 0.1.11
