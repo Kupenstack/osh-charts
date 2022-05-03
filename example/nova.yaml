@@ -1,0 +1,33 @@
+network:
+  backend: 
+    - linuxbridge
+pod:
+  replicas:
+    osapi: 1
+    conductor: 1
+    consoleauth: 1
+bootstrap:
+  wait_for_computes:
+    enabled: true
+conf:
+  ceph:
+    enabled: false
+  nova:
+    libvirt:
+      virt_type: qemu
+      cpu_mode: none
+
+manifests:
+  cron_job_cell_setup: false
+  cron_job_service_cleaner: false
+  statefulset_compute_ironic: false
+  deployment_placement: false
+  ingress_placement: false
+  job_db_init_placement: false
+  job_ks_placement_endpoints: false
+  job_ks_placement_service: false
+  job_ks_placement_user: false
+  pdb_placement: false
+  secret_keystone_placement: false
+  service_ingress_placement: false
+  service_placement: false

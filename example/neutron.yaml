@@ -1,0 +1,14 @@
+network:
+  backend: 
+    - linuxbridge
+conf:
+  neutron:
+    DEFAULT:
+      interface_driver: linuxbridge
+  dhcp_agent:
+    DEFAULT:
+      interface_driver: linuxbridge
+  l3_agent:
+    DEFAULT:
+      interface_driver: linuxbridge
+
