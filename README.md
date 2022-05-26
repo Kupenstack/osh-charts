@@ -37,7 +37,7 @@ Before we begin, we need to have a kubernetes cluster on top of which we will de
 Deploy k8s cluster using command:
 
 ```
-kind create cluster --image kindest/node:v1.19.1
+kind create cluster --image kindest/node:v1.21.1
 ```
 
 Now, we will add few labels to our k8s nodes:
